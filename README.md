@@ -1,21 +1,19 @@
-# Project Title
+# Home Assesment
 
 ## Description
-A brief description of what your project does.
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Example Data](#example-data)
-- [Output](#output)
-- [Functions and Their Responsibilities](#functions-and-their-responsibilities)
-- [Assumptions](#assumptions)
-- [Design Decisions](#design-decisions)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+This python script is used to fetch data from the JSON file which extracts work experience, detects gaps in between jobs, formats data in JSON format.
 
-## Installation
-Instructions on how to install and setup your project.
+## Usage
+1. Place the python script `main.py` and the `data.json` file in the same directory.
+2. Ensure you have Python installed (>=3.11.1).
+3. Update the `file_path` variable in the `main.py` function with the correct path to your JSON file.
+4. Run the script
 
-```sh
-pip install package-name
+
+## Assumptions
+The input data is in JSON format.
+Dates are in the format YYYY-MM-DD.
+Each candidate has a name and a list of jobs, where each job has role, start_date, end_date, and location.
+
+
