@@ -12,8 +12,8 @@ This python script is used to fetch data from the JSON file provided which extra
 
 
 ## Assumptions
-The input data is in JSON format.
-Dates are in the format YYYY-MM-DD.
-Each candidate has a name and a list of jobs, where each job has role, start_date, end_date, and location.
+1. The input data is in JSON format.
+2. Dates are in the format YYYY-MM-DD.
+3. Each candidate has a name and a list of jobs, where each job has role, start_date, end_date, and location.
 
 
